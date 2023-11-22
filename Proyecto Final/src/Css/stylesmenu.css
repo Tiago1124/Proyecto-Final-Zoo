@@ -1,0 +1,117 @@
+body {
+    background: url('/src/Img/kyle-glenn-hn2Xf1sK_y4-unsplash.jpg') center/cover no-repeat;
+    backdrop-filter: blur(4px);
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% de la altura de la ventana */
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    top: 23%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+}
+
+.circles-container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px; /* Ajusta según sea necesario */
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Color de fondo de la circunferencia */
+    border-radius: 50%; /* Hace que el elemento sea circular */
+    background-size: cover;
+    margin-right: 100px;
+    position: relative;
+    left: 16%;
+}
+
+#circle1 {
+    background-image: url('/src/Img/mariola-grobelska-xdSDchtfZHI-unsplash.jpg'); /* Ruta de la primera imagen */
+   
+}
+
+#circle2 {
+    background-image: url('/src/Img/zita-almasy-de-zsadany-aVs402A5mqM-unsplash.jpg'); /* Ruta de la segunda imagen */
+    
+}
+
+#circle3 {
+    background-image: url('/src/Img/jason-buscema-8QKKVxwk6LA-unsplash.jpg'); /* Ruta de la tercera imagen */
+}
+
+
+.textarriba{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 17px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+    text-decoration: none; /* Quitar subrayado */
+
+}
+
+.texterres{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+    text-decoration: none; /* Quitar subrayado */
+
+}
+
+.textacua{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+    text-decoration: none; /* Quitar subrayado */
+
+}
+
+.textaire{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+    text-decoration: none; /* Quitar subrayado */
+
+}
