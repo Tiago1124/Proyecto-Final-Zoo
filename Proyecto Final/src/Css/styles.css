@@ -1,0 +1,83 @@
+body {
+    background: url('/src/Img/alexander-ross-myeQ2RH1PX0-unsplash.jpg') center/cover no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% de la altura de la ventana */
+}
+
+.background-container {
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% de la altura de la ventana */
+    flex-shrink: 0;
+    background: rgba(43, 43, 43, 0.5); /* Usamos rgba para agregar opacidad solo al fondo */
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    /* Para centrar el contenedor en la pantalla */
+    overflow: hidden; /* Evitar desbordamiento */
+
+}
+.title {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 55px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 64.4%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+}
+
+.text {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 57%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    max-width: 50%; /* Ajusta según sea necesario */
+}
+
+.textarriba{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 17px;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 10%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajusta según sea necesario */
+}
+
+.my-button {
+    background-color: #DE911D;
+    font-family: 'Poppins';
+    color: #FFF;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 70%; /* Ajusta la posición vertical del botón según sea necesario */
+    left: 58.7%; /* Centra el botón horizontalmente */
+    transform: translateX(-50%);
+    text-decoration: none; /* Quitar subrayado */
+}
+
+.my-button:hover {
+    background-color: #af741c;
+}
